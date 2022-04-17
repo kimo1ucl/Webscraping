@@ -1,0 +1,6 @@
+{
+    "require": {
+        "fabpot/goutte": "^4.0",
+        "masterminds/html5": "^2.7"
+    }
+}

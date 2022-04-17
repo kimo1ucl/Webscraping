@@ -34,7 +34,6 @@ function printHeader():string{
    '\'data-model\''.';'.
    '\'data-year\''.';'.
    '\'data-trim\''.';'.
-   '\'data-trim\''.';'.
    '\'data-extcolor\''.';'.
    '\'data-intcolor\''.';'.
    '\'data-trans\''.';'.
@@ -47,7 +46,7 @@ function printHeader():string{
    '\'data-vin\''.';'.
    '\'data-modelcode\''.';'.
    '\'data-msrp\''.';'.
-   '\'data-stocknum\''.';';
+   '\'data-stocknum\'';
     ;
    return $rt;  
 }
@@ -58,7 +57,6 @@ function printCar(Crawler $carnode):string
      '\''.$carnode->attr('data-make').'\''.';'.
      '\''.$carnode->attr('data-model').'\''.';'.
      '\''.$carnode->attr('data-year').'\''.';'.
-     '\''.$carnode->attr('data-trim').'\''.';'.
      '\''.$carnode->attr('data-trim').'\''.';'.
      '\''.$carnode->attr('data-extcolor').'\''.';'.
      '\''.$carnode->attr('data-intcolor').'\''.';'.
@@ -73,7 +71,7 @@ function printCar(Crawler $carnode):string
      '\''.$carnode->attr('data-vin').'\''.';'.
      '\''.$carnode->attr('data-modelcode').'\''.';'.
      '\''.$carnode->attr('data-msrp').'\''.';'.
-     '\''.$carnode->attr('data-stocknum').'\''.';';
+     '\''.$carnode->attr('data-stocknum').'\'';
     return $rt;       
 }
 
