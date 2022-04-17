@@ -13,7 +13,6 @@ The examples in the webarticle are prepared for you to try out in the folders na
 5.Headless-Panther
 
 # Downloading frameworks:
-=======================
 These implementations are dependent of frameworks
 3.Guzzle
 4.Goutte
@@ -37,7 +36,6 @@ in each folder with dependencies you will find a composer.ps1 file. This file co
 compose commands to download and install the necessary frameworks.
 
 # The AmericanCars folders 
-========================
 https://www.allamericanfordinoldbridge.com/searchused.aspx
 AmericanCars
 AmericanCarsOffline
