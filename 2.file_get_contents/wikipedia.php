@@ -11,6 +11,11 @@ $length = $end - $start;
 
 $htmlSection = substr($html, $start, $length);
 
+$myfile = fopen("testfile.txt", "w") or die("Unable to open file!");
+fwrite($myfile, $htmlSection);
+fclose($myfile);
+
+
 preg_match_all('@<li>(.+)</li>@', $htmlSection, $matches);
 $listItems = $matches[1];
 
